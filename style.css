@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   background-color: #000;
@@ -255,7 +260,7 @@ a {
   }
 
   button:hover::before {
-    transform: scale(1, 1);
+    transform: scale(2, 1);
     opacity: 1;
   }
 }
