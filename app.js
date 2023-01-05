@@ -1621,7 +1621,7 @@ function tick(width, height, simTime, simSpeed, lag) {
 
   PERF_END("3D");
 
-  PERF_START("shadows");
+  PERF_START("shadow");
 
   // Rotate shadow vertices to light source perspective
   transformVertices(
