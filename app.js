@@ -33,7 +33,7 @@ const minPointerSpeed = 60;
 // The hit speed affects the direction the target post-hit. This number dampens that force.
 const hitDampening = 0.1;
 // Backboard receives shadows and is the farthest negative Z position of entities.
-const backboardZ = -400;
+const backboardZ = -500;
 const shadowColor = "#262e25";
 // How much air drag is applied to standard objects
 const airDrag = 0.022;
@@ -1966,7 +1966,7 @@ if ("PointerEvent" in window) {
         }
       }
     },
-    { passive: false }
+    { passive: true}
   );
 }
 setupCanvases();
